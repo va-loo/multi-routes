@@ -1,0 +1,4 @@
+<div class="modal">
+  <p>hello, {{ (user$ | async)?.name }} (id: {{ (user$ | async)?.id }})!</p>
+  <button type="button" (click)="onClose()">Close modal</button>
+</div>
